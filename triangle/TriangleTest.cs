@@ -107,3 +107,4 @@ public class TriangleTest
         Assert.Throws<TriangleException>(() => Triangle.Kind(7, 3, 2));
     }
 }
+

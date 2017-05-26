@@ -4,6 +4,7 @@ using NUnit.Framework;
 [TestFixture]
 public class WordCountTest
 {
+
     [Test]
     public void Count_one_word()
     {
