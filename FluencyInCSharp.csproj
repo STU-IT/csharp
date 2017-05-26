@@ -44,6 +44,14 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="01_bob\README.md" />
+    <None Include="02_leap\README.md" />
+    <None Include="03_gigasecond\README.md" />
+    <None Include="04_difference-of-squares\README.md" />
+    <None Include="05_rna-transcription\README.md" />
+    <None Include="06_sum-of-multiples\README.md" />
+    <None Include="07_space-age\README.md" />
+    <None Include="08_grains\README.md" />
     <None Include="accumulate\README.md" />
     <None Include="acronym\README.md" />
     <None Include="all-your-base\README.md" />
@@ -62,7 +70,7 @@
     <None Include="gigasecond\README.md" />
     <None Include="grade-school\README.md" />
     <None Include="grains\README.md" />
-    <None Include="hamming\README.md" />
+    <None Include="09_hamming\README.md" />
     <None Include="kindergarten-garden\README.md" />
     <None Include="largest-series-product\README.md" />
     <None Include="leap\README.md" />
@@ -106,6 +114,22 @@
     <None Include="wordy\README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="01_bob\Bob.cs" />
+    <Compile Include="01_bob\BobTest.cs" />
+    <Compile Include="02_leap\LeapTest.cs" />
+    <Compile Include="02_leap\Year.cs" />
+    <Compile Include="03_gigasecond\Gigasecond.cs" />
+    <Compile Include="03_gigasecond\GigasecondTest.cs" />
+    <Compile Include="04_difference-of-squares\DifferenceOfSquaresTest.cs" />
+    <Compile Include="04_difference-of-squares\Squares.cs" />
+    <Compile Include="05_rna-transcription\Complement.cs" />
+    <Compile Include="05_rna-transcription\ComplementTest.cs" />
+    <Compile Include="06_sum-of-multiples\SumOfMultiples.cs" />
+    <Compile Include="06_sum-of-multiples\SumOfMultiplesTest.cs" />
+    <Compile Include="07_space-age\SpaceAge.cs" />
+    <Compile Include="07_space-age\SpaceAgeTest.cs" />
+    <Compile Include="08_grains\Grains.cs" />
+    <Compile Include="08_grains\GrainsTest.cs" />
     <Compile Include="accumulate\AccumulateTest.cs" />
     <Compile Include="acronym\Acronym.cs" />
     <Compile Include="acronym\AcronymTest.cs" />
@@ -141,8 +165,8 @@
     <Compile Include="grade-school\School.cs" />
     <Compile Include="grains\Grains.cs" />
     <Compile Include="grains\GrainsTest.cs" />
-    <Compile Include="hamming\Hamming.cs" />
-    <Compile Include="hamming\HammingTest.cs" />
+    <Compile Include="09_hamming\Hamming.cs" />
+    <Compile Include="09_hamming\HammingTest.cs" />
     <Compile Include="kindergarten-garden\Garden.cs" />
     <Compile Include="kindergarten-garden\KinderGartenGardenTest.cs" />
     <Compile Include="kindergarten-garden\Plant.cs" />
@@ -228,6 +252,9 @@
     <Compile Include="word-count\WordCountTest.cs" />
     <Compile Include="wordy\WordProblem.cs" />
     <Compile Include="wordy\WordyTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
