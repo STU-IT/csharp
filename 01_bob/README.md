@@ -24,9 +24,17 @@ it.
 
 Please make your solution as general as possible. Good code doesn't just
 pass the test suite, it works with any input that fits the
-specification.
+specification. 
 
 Have fun!
+
+## Hints
+
+Look at the input strings methods and properties. 
+It might have many of the issues already build-in.
+
+To determine what kind of approach Bob is confronted with, 
+can be seen as a matter of comparing a modifies version of string with its original.
 
 ## Source
 
