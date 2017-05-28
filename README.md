@@ -11,7 +11,7 @@ The exercises use NUnit. Follow [this guide][nunit-guide] to get started.
 [csharp-installation]: https://github.com/exercism/xcsharp/blob/master/docs/INSTALLATION.md
 [nunit-guide]: https://github.com/exercism/xcsharp/blob/master/docs/TESTS.md
 
-_**This edition is organized to work with VisualStudio.**__
+_**This edition is organized to work with VisualStudio.**_
 
 _**All required classes are created as dummies, 
 to enable build.**_
