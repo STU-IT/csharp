@@ -3,6 +3,7 @@
 [TestFixture]
 public class GrainsTest
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Test_square_1()
     {

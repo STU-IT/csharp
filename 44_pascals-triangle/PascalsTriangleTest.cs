@@ -4,6 +4,7 @@ using NUnit.Framework;
 public class PascalsTriangleTest
 {
     [Test]
+    [Ignore("Remove to run test")]
     public void One_row()
     {
         var actual = PascalsTriangle.Calculate(1);

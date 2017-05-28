@@ -5,6 +5,7 @@ using NUnit.Framework;
 public class AllergiesTest
 {
     [Test]
+    [Ignore("Remove to run test")]
     public void No_allergies_means_not_allergic()
     {
         var allergies = new Allergies(0);

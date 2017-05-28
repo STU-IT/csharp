@@ -3,6 +3,7 @@ using NUnit.Framework;
 [TestFixture]
 public class TriangleTest
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Equilateral_triangles_have_equal_sides()
     {

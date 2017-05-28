@@ -3,6 +3,7 @@ using NUnit.Framework;
 [TestFixture]
 public class PrimeFactorsTest
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Test_1()
     {

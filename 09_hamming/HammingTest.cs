@@ -4,6 +4,7 @@ using NUnit.Framework;
 public class HammingTest
 {
     [Test]
+    [Ignore("Remove to run test")]
     public void No_difference_between_empty_strands()
     {
         Assert.That(Hamming.Compute("",""), Is.EqualTo(0));

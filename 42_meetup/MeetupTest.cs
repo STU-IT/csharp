@@ -4,6 +4,7 @@ using NUnit.Framework;
 [TestFixture]
 public class MeetupTest
 {
+    [Ignore("Remove to run test")]
     [TestCase(5, DayOfWeek.Monday, ExpectedResult = "2013-5-13")]
     [TestCase(3, DayOfWeek.Tuesday, ExpectedResult = "2013-3-19")]
     [TestCase(1, DayOfWeek.Wednesday, ExpectedResult = "2013-1-16")]

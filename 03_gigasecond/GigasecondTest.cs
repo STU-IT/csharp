@@ -5,6 +5,7 @@ using NUnit.Framework;
 public class GigasecondTest
 {
     [Test]
+    [Ignore("Remove to run test")]
     public void First_date()
     {
         var date = Gigasecond.Date(new DateTime(2011, 4, 25, 0, 0, 0, DateTimeKind.Utc));

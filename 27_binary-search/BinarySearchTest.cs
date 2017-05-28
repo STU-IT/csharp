@@ -3,6 +3,7 @@
 [TestFixture]
 public class BinarySearchTest
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Should_return_minus_one_when_an_empty_array_is_searched()
     {

@@ -68,6 +68,7 @@ public class TournamentTest
         }
     }
 
+    [Ignore("Remove to run test")]
     [Test]
     public void Test_good()
     {

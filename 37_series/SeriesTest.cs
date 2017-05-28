@@ -9,6 +9,7 @@ public class SeriesTest
             new object[] { "92834", new[] { new[] { 9 }, new[] { 2 }, new[] { 8 }, new[] { 3 }, new[] { 4 } } }
         };
 
+    [Ignore("Remove to run test")]
     [TestCaseSource("SliceOneTestData")]
     public void Series_of_one_splits_to_one_digit(string input, int[][] result)
     {

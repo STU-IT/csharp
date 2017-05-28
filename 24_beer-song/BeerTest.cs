@@ -2,6 +2,7 @@
 
 public class BeerTests
 {
+    [Ignore("Remove to run test")]
     [TestCase(8, ExpectedResult = "8 bottles of beer on the wall, 8 bottles of beer.\nTake one down and pass it around, 7 bottles of beer on the wall.\n")]
     [TestCase(2, ExpectedResult = "2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n", Ignore = "Remove to run test case")]
     [TestCase(1, ExpectedResult = "1 bottle of beer on the wall, 1 bottle of beer.\nTake it down and pass it around, no more bottles of beer on the wall.\n", Ignore = "Remove to run test case")]

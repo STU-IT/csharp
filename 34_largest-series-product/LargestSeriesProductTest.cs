@@ -4,6 +4,7 @@ using NUnit.Framework;
 [TestFixture]
 public class LargestSeriesProductTest
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Can_find_the_largest_product_of_2_with_numbers_in_order()
     {

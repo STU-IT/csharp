@@ -4,6 +4,7 @@ using NUnit.Framework;
 [TestFixture]
 public class PythagoreanTripletTest
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Calculates_the_sum()
     {

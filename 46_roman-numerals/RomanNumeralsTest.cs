@@ -3,6 +3,7 @@ using NUnit.Framework;
 [TestFixture]
 public class RomanNumeralsTest
 {
+    [Ignore("Remove to run test")]
     [TestCase(0, ExpectedResult = "")]
     [TestCase(1, ExpectedResult = "I", Ignore = "Remove to run test case")]
     [TestCase(2, ExpectedResult = "II", Ignore = "Remove to run test case")]

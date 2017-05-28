@@ -3,6 +3,7 @@ using NUnit.Framework;
 [TestFixture]
 public class SieveTest
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Finds_first_prime()
     {

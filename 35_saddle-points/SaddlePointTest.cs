@@ -4,6 +4,7 @@ using NUnit.Framework;
 public class SaddlePointTests
 {
     [Test]
+    [Ignore("Remove to run test")]
     public void Readme_example()
     {
         var values = new[,]

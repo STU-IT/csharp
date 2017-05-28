@@ -12,6 +12,7 @@ public class TwelveDaysTest
     }
 
     [Test]
+    [Ignore("Remove to run test")]
     public void Return_verse_1()
     {
         var expected = "On the first day of Christmas my true love gave to me, a Partridge in a Pear Tree.\n";

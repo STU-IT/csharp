@@ -12,6 +12,7 @@ public class RobotNameTest
     }
 
     [Test]
+    [Ignore("Remove to run test")]
     public void Robot_has_a_name()
     {
         StringAssert.IsMatch(@"[A-Z]{2}\d{3}", robot.Name);

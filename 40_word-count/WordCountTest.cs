@@ -5,6 +5,7 @@ using NUnit.Framework;
 public class WordCountTest
 {
 
+    [Ignore("Remove to run test")]
     [Test]
     public void Count_one_word()
     {

@@ -3,6 +3,7 @@ using NUnit.Framework;
 [TestFixture]
 public class LuhnTest
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Check_digit_is_the_rightmost_digit()
     {

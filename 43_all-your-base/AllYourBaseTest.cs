@@ -5,6 +5,7 @@ using NUnit.Framework;
 public class AllYourBaseTest
 {
     [Test]
+    [Ignore("Remove to run test")]
     public void Single_bit_one_to_decimal()
     {
         const int inputBase = 2;
@@ -132,6 +133,7 @@ public class AllYourBaseTest
     }
 
     [Test]
+    [Ignore("Remove to run test")]
     public void Negative_digit()
     {
         const int inputBase = 2;

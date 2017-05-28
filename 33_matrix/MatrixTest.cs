@@ -2,6 +2,7 @@
 
 public class MatrixTest
 {
+    [Ignore("Remove to run test")]
     [TestCase("1", ExpectedResult = new[] { 1 })]
     [TestCase("4 7", ExpectedResult = new[] { 4, 7 }, Ignore = "Remove to run test case")]
     [TestCase("1 2\n10 20", ExpectedResult = new[] { 1, 2 }, Ignore = "Remove to run test case")]
@@ -12,6 +13,7 @@ public class MatrixTest
         return matrix.Row(0);
     }
 
+    [Ignore("Remove to run test")]
     [TestCase("5", ExpectedResult = new[] { 5 }, Ignore = "Remove to run test case")]
     [TestCase("9 7", ExpectedResult = new[] { 9, 7 }, Ignore = "Remove to run test case")]
     [TestCase("9 8 7\n19 18 17", ExpectedResult = new[] { 19, 18, 17 }, Ignore = "Remove to run test case")]

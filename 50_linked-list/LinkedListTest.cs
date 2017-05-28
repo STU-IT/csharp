@@ -12,6 +12,7 @@ public class DequeTest
     }
 
     [Test]
+    [Ignore("Remove to run test")]
     public void Push_and_pop_are_first_in_last_out_order()
     {
         deque.Push(10);

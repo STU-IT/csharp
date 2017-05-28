@@ -3,6 +3,7 @@ using NUnit.Framework;
 
 public class QueenAttackTest
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Cannot_occupy_same_space()
     {

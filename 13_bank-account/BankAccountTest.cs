@@ -4,6 +4,7 @@ using NUnit.Framework;
 public class BankAccountTest
 {
     [Test]
+    [Ignore("Remove to run test")]
     public void Returns_empty_balance_after_opening()
     {
         var account = new BankAccount();

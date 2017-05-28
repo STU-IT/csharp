@@ -3,6 +3,7 @@ using NUnit.Framework;
 
 public class PalindromeTest
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Largest_palindrome_from_single_digit_factors()
     {

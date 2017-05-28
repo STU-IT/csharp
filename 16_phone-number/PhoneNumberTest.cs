@@ -3,6 +3,7 @@ using NUnit.Framework;
 [TestFixture]
 public class PhoneNumberTest
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Cleans_parens_spaces_and_dashes()
     {

@@ -3,6 +3,7 @@ using NUnit.Framework;
 
 public class BinarySearchTreeTest
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Data_is_retained()
     {

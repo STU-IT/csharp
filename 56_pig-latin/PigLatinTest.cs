@@ -3,6 +3,7 @@ using NUnit.Framework;
 [TestFixture]
 public class PigLatinTest
 {
+    [Ignore("Remove to run test")]
     [TestCase("apple", ExpectedResult = "appleay")]
     [TestCase("ear", ExpectedResult = "earay")]
     [TestCase("igloo", ExpectedResult = "iglooay")]

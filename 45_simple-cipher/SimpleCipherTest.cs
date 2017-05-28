@@ -11,6 +11,7 @@ public class RandomKeyCipherTest
         cipher = new Cipher();
     }
 
+    [Ignore("Remove to run test")]
     [Test]
     public void Cipher_key_is_made_of_letters()
     {

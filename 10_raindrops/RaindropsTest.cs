@@ -3,6 +3,7 @@ using NUnit.Framework;
 [TestFixture]
 public class RaindropsTest
 {
+    [Ignore("Remove to run test")]
     [TestCase(1, ExpectedResult = "1")]
     [TestCase(52, ExpectedResult = "52")]
     [TestCase(12121, ExpectedResult = "12121")]

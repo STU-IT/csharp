@@ -5,6 +5,7 @@ using NUnit.Framework;
 public class SpaceAgeTest
 {
     [Test]
+    [Ignore("Remove to run test")]
     public void Age_in_seconds()
     {
         var age = new SpaceAge(1000000);

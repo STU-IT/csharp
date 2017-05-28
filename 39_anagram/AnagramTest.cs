@@ -4,6 +4,7 @@ using NUnit.Framework;
 public class AnagramTest
 {
     [Test]
+    [Ignore("Remove to run test")]
     public void No_matches()
     {
         var detector = new Anagram("diaper");

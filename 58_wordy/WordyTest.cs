@@ -3,6 +3,7 @@ using NUnit.Framework;
 [TestFixture]
 public class WordProblemTest
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Can_parse_and_solve_addition_problems()
     {

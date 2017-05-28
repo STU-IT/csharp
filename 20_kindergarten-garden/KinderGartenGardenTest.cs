@@ -4,6 +4,7 @@ using NUnit.Framework;
 public class KinderGartenGardenTest
 {
     [Test]
+    [Ignore("Remove to run test")]
     public void Missing_child()
     {
         var actual = Garden.DefaultGarden("RC\nGG").GetPlants("Potter");

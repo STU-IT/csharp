@@ -3,6 +3,7 @@
 [TestFixture]
 public class MinesweeperTest
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Zero_sized_board()
     {
@@ -12,7 +13,7 @@ public class MinesweeperTest
         Assert.That(Minesweeper.Annotate(input), Is.EqualTo(expected));
     }
 
-    //[Ignore("Remove to run test")]
+    [Ignore("Remove to run test")]
     [Test]
     public void Empty_board()
     {
@@ -33,7 +34,7 @@ public class MinesweeperTest
         Assert.That(Minesweeper.Annotate(input), Is.EqualTo(expected));
     }
 
-    //[Ignore("Remove to run test")]
+    [Ignore("Remove to run test")]
     [Test]
     public void Board_full_of_mines()
     {
@@ -54,7 +55,7 @@ public class MinesweeperTest
         Assert.That(Minesweeper.Annotate(input), Is.EqualTo(expected));
     }
 
-    //[Ignore("Remove to run test")]
+    [Ignore("Remove to run test")]
     [Test]
     public void Surrounded()
     {
@@ -75,7 +76,7 @@ public class MinesweeperTest
         Assert.That(Minesweeper.Annotate(input), Is.EqualTo(expected));
     }
 
-    //[Ignore("Remove to run test")]
+    [Ignore("Remove to run test")]
     [Test]
     public void Horizontal_line()
     {
@@ -92,7 +93,7 @@ public class MinesweeperTest
         Assert.That(Minesweeper.Annotate(input), Is.EqualTo(expected));
     }
 
-    //[Ignore("Remove to run test")]
+    [Ignore("Remove to run test")]
     [Test]
     public void Vertical_line()
     {
@@ -117,7 +118,7 @@ public class MinesweeperTest
         Assert.That(Minesweeper.Annotate(input), Is.EqualTo(expected));
     }
 
-    //[Ignore("Remove to run test")]
+    [Ignore("Remove to run test")]
     [Test]
     public void Cross()
     {

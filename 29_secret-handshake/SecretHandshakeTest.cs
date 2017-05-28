@@ -3,6 +3,7 @@
 [TestFixture]
 public class SecretHandshakeTests
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Test_1_handshake_to_wink()
     {

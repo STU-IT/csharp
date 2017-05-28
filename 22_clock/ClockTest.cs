@@ -3,6 +3,7 @@ using NUnit.Framework;
 [TestFixture]
 public class ClockTest
 {
+    [Ignore("Remove to run test")]
     [TestCase(8, "08:00")]
     [TestCase(9, "09:00")]
     public void Prints_the_hour(int hours, string expected)

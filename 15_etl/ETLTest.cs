@@ -4,6 +4,7 @@ using NUnit.Framework;
 [TestFixture]
 public class ETLTest
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Transforms_one_value()
     {

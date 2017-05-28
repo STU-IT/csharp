@@ -2,6 +2,7 @@
 
 public class NthPrimeTest
 {
+    [Ignore("Remove to run test")]
     [TestCase(1, ExpectedResult = 2)]
     [TestCase(2, ExpectedResult = 3, Ignore = "Remove to run test case")]
     [TestCase(3, ExpectedResult = 5, Ignore = "Remove to run test case")]

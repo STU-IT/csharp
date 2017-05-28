@@ -3,6 +3,7 @@ using NUnit.Framework;
 
 public class SimpleLinkedListTest
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Single_item_list_value()
     {

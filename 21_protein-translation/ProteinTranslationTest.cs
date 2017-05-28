@@ -4,6 +4,7 @@ using NUnit.Framework;
 [TestFixture]
 public class ProteinTranslationTest
 {
+    [Ignore("Remove to run test")]
     [TestCase("AUG")]
     public void Identifies_methionine_codons(string codon)
     {

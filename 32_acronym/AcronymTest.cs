@@ -5,6 +5,7 @@ namespace Exercism
     [TestFixture]
     public class AcronymTest
     {
+        [Ignore("Remove to run test")]
         [Test]
         public void Empty_string_abbreviated_to_empty_string()
         {

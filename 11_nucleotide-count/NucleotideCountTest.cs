@@ -4,6 +4,7 @@ using NUnit.Framework;
 [TestFixture]
 public class NucleoTideCountTest
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Has_no_nucleotides()
     {

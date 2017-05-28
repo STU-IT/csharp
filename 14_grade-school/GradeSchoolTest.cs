@@ -13,6 +13,7 @@ public class GradeSchoolTest
     }
 
     [Test]
+    [Ignore("Remove to run test")]
     public void New_school_has_an_empty_roster()
     {
         Assert.That(school.Roster, Has.Count.EqualTo(0));

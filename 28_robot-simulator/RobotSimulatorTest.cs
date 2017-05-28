@@ -2,6 +2,7 @@
 
 public class RobotSimulatorTest
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Turn_right_edge_case()
     {

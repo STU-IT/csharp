@@ -4,6 +4,7 @@ using NUnit.Framework;
 public class ComplementTest
 {
     [Test]
+    [Ignore("Remove to run test")]
     public void Rna_complement_of_cytosine_is_guanine()
     {
         Assert.That(Complement.OfDna("C"), Is.EqualTo("G"));

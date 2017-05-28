@@ -5,6 +5,7 @@ using NUnit.Framework;
 [TestFixture]
 public class StrainTest
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Empty_keep()
     {

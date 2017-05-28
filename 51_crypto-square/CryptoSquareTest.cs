@@ -3,6 +3,7 @@ using NUnit.Framework;
 [TestFixture]
 public class CryptoSquareTest
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Strange_characters_are_stripped_during_normalization()
     {

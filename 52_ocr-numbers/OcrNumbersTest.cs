@@ -3,6 +3,7 @@
 public class OcrNumbersTest
 {
     [Test]
+    [Ignore("Remove to run test")]
     public void Recognizes_zero()
     {
         var converted = OcrNumbers.Convert(" _ " + "\n" +

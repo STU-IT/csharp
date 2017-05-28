@@ -3,6 +3,7 @@ using NUnit.Framework;
 [TestFixture]
 public class LeapTest
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Valid_leap_year()
     {

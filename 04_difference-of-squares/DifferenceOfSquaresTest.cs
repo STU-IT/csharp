@@ -5,6 +5,7 @@ using NUnit.Framework;
 public class DifferenceOfSquaresTests
 {
     [Test]
+    [Ignore("Remove to run test")]
     public void Test_square_of_sums_to_5()
     {
         Assert.That(new Squares(5).SquareOfSums(), Is.EqualTo(225));

@@ -3,6 +3,7 @@ using NUnit.Framework;
 [TestFixture]
 public class ScrabbleScoreTest
 {
+    [Ignore("Remove to run test")]
     [Test]
     public void Empty_word_scores_zero()
     {
